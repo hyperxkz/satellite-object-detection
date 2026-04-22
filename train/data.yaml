@@ -1,0 +1,10 @@
+# Указываем абсолютный путь к папке проекта
+path: C:/Users/ddd/Desktop/train 
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['car']
+
+# Секцию roboflow можно оставить или удалить, она не влияет на обучение
